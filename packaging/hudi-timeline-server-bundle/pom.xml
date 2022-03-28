@@ -69,8 +69,8 @@
         </dependency>
 
         <dependency>
-            <groupId>io.javalin</groupId>
-            <artifactId>javalin</artifactId>
+            <groupId>org.apache.hudi</groupId>
+            <artifactId>javalin-shade</artifactId>
             <version>2.8.0</version>
         </dependency>
 
@@ -171,7 +171,7 @@
                       <include>org.mortbay.jetty:jetty</include>
                       <include>org.mortbay.jetty:jetty-util</include>
                       <include>org.apache.httpcomponents:fluent-hc</include>
-                      <include>io.javalin:javalin</include>
+                      <include>org.apache.hudi:javalin-shade</include>
                       <include>org.jetbrains.kotlin:kotlin-stdlib-jdk8</include>
                       <include>org.jetbrains.kotlin:kotlin-stdlib</include>
                       <include>org.jetbrains.kotlin:kotlin-stdlib-common</include>

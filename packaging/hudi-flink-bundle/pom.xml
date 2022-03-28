@@ -85,7 +85,7 @@
 
                   <include>com.yammer.metrics:metrics-core</include>
                   <include>com.beust:jcommander</include>
-                  <include>io.javalin:javalin</include>
+                  <include>org.apache.hudi:javalin-shade</include>
                   <include>org.jetbrains.kotlin:*</include>
                   <include>org.rocksdb:rocksdbjni</include>
                   <include>org.apache.httpcomponents:httpclient</include>

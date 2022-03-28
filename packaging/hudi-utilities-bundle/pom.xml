@@ -101,7 +101,7 @@
 
                   <include>com.yammer.metrics:metrics-core</include>
                   <include>com.beust:jcommander</include>
-                  <include>io.javalin:javalin</include>
+                  <include>org.apache.hudi:javalin-shade</include>
                   <!-- Spark only has mortbay jetty -->
                   <include>org.eclipse.jetty:*</include>
                   <include>org.eclipse.jetty.websocket:*</include>
